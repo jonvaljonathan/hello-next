@@ -9652,6 +9652,7 @@ var PostLink = function PostLink(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    as: "/p/".concat(props.id),
     href: "/post?title=".concat(props.title),
     __source: {
       fileName: _jsxFileName,
@@ -9687,6 +9688,7 @@ function Blog() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostLink, {
+    id: "hello-nextjs",
     title: "Hello Next.js",
     __source: {
       fileName: _jsxFileName,
@@ -9694,6 +9696,7 @@ function Blog() {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostLink, {
+    id: "learn-nextjs",
     title: "Learn Next.js is awesome",
     __source: {
       fileName: _jsxFileName,
@@ -9701,6 +9704,7 @@ function Blog() {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostLink, {
+    id: "deploy-nextjs",
     title: "Deploy apps witj Zeit",
     __source: {
       fileName: _jsxFileName,
@@ -9713,7 +9717,7 @@ function Blog() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fjonwhite%2FDropbox%2FcodeCademy%2Fprojects%2Fhello-next%2Fpages%2Findex.js ***!
   \******************************************************************************************************************************************************/
@@ -9736,5 +9740,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]));;
+},[[1,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=index.js.map
